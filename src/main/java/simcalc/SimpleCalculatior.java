@@ -16,9 +16,16 @@ public class SimpleCalculatior {
 	}
 	
 	public void div(int x, int y) {
+		
 		if(y!=0) //분모가 0인경우 
 		result = x / y;
+		
+		
+	}
 	
+	public void inc(int x) {
+		
+		result +=x;
 		
 	}
 	

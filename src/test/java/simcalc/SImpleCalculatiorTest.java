@@ -38,5 +38,13 @@ public class SImpleCalculatiorTest {
 
 		
 	}
+	@Test
+	public void testInc() {
+		SimpleCalculatior calc = new SimpleCalculatior();
+		calc.inc(100);
+		assertEquals(100, calc.getResult());
+		calc.inc(200);
+		assertEquals(300, calc.getResult());
+		}
 
 }
