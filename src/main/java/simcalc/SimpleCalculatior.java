@@ -18,8 +18,8 @@ public class SimpleCalculatior {
 	public void div(int x, int y) {
 		if(y!=0) //분모가 0인경우 
 		result = x / y;
-		else
-			System.out.println("분모가 0입니다.");
+	
+		
 	}
 	
 	public int getResult() {
